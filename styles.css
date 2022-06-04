@@ -28,9 +28,16 @@ button {
     border: none;
 }
 
-h1, h4 {
+h1, h3,
+h4 {
     margin: 0;
     padding: 0;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 h4 {
@@ -43,13 +50,14 @@ h4 {
     flex-direction: column;
     background-color: #29446b;
     color: white;
-    padding: 24px 200px 100px;
+    padding: 24px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin: 0 350px;
 }
 
 a,
@@ -70,23 +78,30 @@ a {
 }
 
 .opener {
-    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 250px;
+    gap: 200px;
 }
 
 .opener-text-and-button {
     flex-direction: column;
     flex-wrap: wrap;
-    padding-right: 200px;
+    max-width: 450px
 }
 
 .locations-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 100px 250px;
+    gap: 50px;
 }
 
 .location-cards {
     display: flex;
-    gap: 16px;
+    gap: 32px;
 }
 
 .locations {
