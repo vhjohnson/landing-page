@@ -1,0 +1,8 @@
+.body {
+    display: flex;
+    height: 100vh;
+}
+
+.header-section {
+    background-color: #537ebb;
+}
