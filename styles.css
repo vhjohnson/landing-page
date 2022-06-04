@@ -120,6 +120,11 @@ a {
 }
 
 .locations {
+    border: solid 1px;
+    margin: auto;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
 }
 
 .quote-section {
