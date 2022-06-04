@@ -1,8 +1,28 @@
 .body {
     display: flex;
+    flex-direction: column;
     height: 100vh;
+    margin: 0;
+}
+
+#logo {
+    height: auto;
+    max-width: 500px;
+}
+
+img {
+    height:auto;
+    max-width: 200px;
 }
 
 .header-section {
+    display: flex;
+    flex-direction: column;
     background-color: #537ebb;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
