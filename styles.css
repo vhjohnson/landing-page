@@ -15,17 +15,44 @@ img {
     max-width: 200px;
 }
 
+h1, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
 .header-section {
     display: flex;
     flex-direction: column;
     background-color: #537ebb;
     color: white;
-    padding: 24px;
+    padding: 24px 200px 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+}
+
+.opener,
+.opener-text-and-button {
+    display: flex;
+    gap: 20px;
+}
+
+.opener {
+    padding-top: 100px;
+}
+
+.opener-text-and-button {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 200px;
 }
 
 .locations-section {
