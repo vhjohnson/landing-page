@@ -20,9 +20,23 @@ img {
     flex-direction: column;
     background-color: #537ebb;
     color: white;
+    padding: 24px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.locations-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.location-cards {
+    display: flex;
+    gap: 16px;
+}
+
+.locations {
 }
