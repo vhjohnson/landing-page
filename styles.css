@@ -106,3 +106,26 @@ a {
 
 .locations {
 }
+
+.quote-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    margin: 0;
+    padding: 100px;
+    gap: 20px;
+
+}
+
+.quote {
+    height: auto;
+    max-width: 500px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+customer {
+    align-self: flex-end;
+}
