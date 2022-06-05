@@ -14,39 +14,20 @@ img {
 }
 
 h1, h3,
-h4, p {
+h4, p,
+a {
     margin: 0;
     padding: 0;
 }
 
-button {
-    height: 30px;
-    width: 85px;
-    border-radius: 8px;
-    background-color: #3882f6;
-    color: white;
-    font-weight: bold;
+a, p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
-#logo {
-    height: auto;
-    max-width: 70px;
-    border-radius: 20px;
-}
-
-#opener-image {
-    height: auto;
-    max-width: 500px;
-    box-shadow: 0 0 20px rgb(243, 245, 245);
-    border-radius: 5px;
-}
-
-.top-button {
-    border: none;
-}
-
-.bottom-button {
-    border: solid 2px white;
+a {
+    text-decoration: none;
+    padding: 0 5px;
 }
 
 h3 {
@@ -60,35 +41,13 @@ h4 {
     font-weight: bolder;
 }
 
-.header-section {
-    display: flex;
-    flex-direction: column;
-    background-color: #29446b;
+button {
+    height: 30px;
+    width: 85px;
+    border-radius: 8px;
+    background-color: #3882f6;
     color: white;
-    padding: 24px;
-}
-
-.company-logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-a,
-.opener-text-and-button {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-a {
-    text-decoration: none;
-    padding: 0 5px;
+    font-weight: bold;
 }
 
 .opener,
@@ -117,6 +76,60 @@ a {
     background-color: #e5e7eb;
 }
 
+/* || Header and Opening Section */
+
+#logo {
+    height: auto;
+    max-width: 70px;
+    border-radius: 20px;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #29446b;
+    color: white;
+    padding: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.company-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.opener-text-and-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 450px;
+    gap: 20px;
+}
+
+.opener-image {
+    height: auto;
+    max-width: 500px;
+    box-shadow: 0 0 20px rgb(243, 245, 245);
+    border-radius: 5px;
+}
+
+.top-button {
+    border: none;
+}
+
+/* || Locations Section */
+
 .location-cards {
     display: flex;
     gap: 32px;
@@ -138,13 +151,7 @@ a {
     gap: 16px;
 }
 
-.opener-text-and-button {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 450px;
-    gap: 20px;
-}
+/* || Quote Section */
 
 .quote {
     height: auto;
@@ -160,6 +167,8 @@ a {
     font-weight: bold;
     padding-top: 15px;
 }
+
+/* || Sign Up Section and Footer */
 
 .blue-box {
     display: flex;
@@ -177,6 +186,10 @@ a {
     font-size: 24px;
     font-weight: bold;
     margin: 0;
+}
+
+.bottom-button {
+    border: solid 2px white;
 }
 
 .footer {
