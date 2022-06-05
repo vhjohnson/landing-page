@@ -1,3 +1,6 @@
+
+/* || General Styles */
+
 .body {
     display: flex;
     flex-direction: column;
@@ -5,22 +8,15 @@
     margin: 0;
 }
 
-#opener-image {
-    height: auto;
-    max-width: 500px;
-    box-shadow: 0 0 20px rgb(243, 245, 245);
-    border-radius: 5px;
-}
-
-#logo {
-    height: auto;
-    max-width: 70px;
-    border-radius: 20px;
-}
-
 img {
     max-height: 100%;
     max-width: 100%;
+}
+
+h1, h3,
+h4, p {
+    margin: 0;
+    padding: 0;
 }
 
 button {
@@ -32,14 +28,25 @@ button {
     font-weight: bold;
 }
 
+#logo {
+    height: auto;
+    max-width: 70px;
+    border-radius: 20px;
+}
+
+#opener-image {
+    height: auto;
+    max-width: 500px;
+    box-shadow: 0 0 20px rgb(243, 245, 245);
+    border-radius: 5px;
+}
+
 .top-button {
     border: none;
 }
 
-h1, h3,
-h4 {
-    margin: 0;
-    padding: 0;
+.bottom-button {
+    border: solid 2px white;
 }
 
 h3 {
@@ -95,6 +102,10 @@ a {
     width: auto;
 }
 
+.opener {
+    gap: 100px;
+}
+
 .locations-section {
     flex-direction: column;
     gap: 50px;
@@ -104,10 +115,6 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #e5e7eb;
-}
-
-.sign-up-section{
-
 }
 
 .location-cards {
@@ -152,4 +159,32 @@ a {
     font-size: 28px;
     font-weight: bold;
     padding-top: 15px;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #3882f6;
+    height: 100px;
+    width: 800px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sign-up-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #29446b;
+    color: white;
+    margin-top: auto;
+    min-height: 60px;
 }
