@@ -85,31 +85,29 @@ a {
 }
 
 .opener,
-.opener-text-and-button {
-    display: flex;
-    gap: 20px;
-}
-
-.opener {
+.locations-section,
+.quote-section,
+.sign-up-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px 250px;
-    gap: 200px;
-}
-
-.opener-text-and-button {
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 450px
+    min-height: 500px;
+    width: auto;
 }
 
 .locations-section {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 100px 250px;
     gap: 50px;
+}
+
+.quote-section {
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.sign-up-section{
+
 }
 
 .location-cards {
@@ -118,32 +116,40 @@ a {
 }
 
 .locations {
-    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 5px;
+    border-color: #6c9eee;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 20px;
     margin: auto;
     padding: 20px;
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    gap: 16px;
 }
 
-.quote-section {
+.opener-text-and-button {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
-    background-color: #e5e7eb;
-    margin: 0;
-    padding: 100px;
+    flex-wrap: wrap;
+    max-width: 450px;
     gap: 20px;
-
 }
 
 .quote {
     height: auto;
-    max-width: 500px;
+    max-width: 700px;
     font-size: 36px;
     font-style: italic;
 }
 
 .customer {
-    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 15px;
 }
