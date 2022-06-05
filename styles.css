@@ -39,13 +39,14 @@ h3 {
 h4 {
     font-size: 48px;
     font-weight: bolder;
+    color: white;
 }
 
 button {
     height: 30px;
     width: 85px;
     border-radius: 8px;
-    background-color: #3882f6;
+    background-color: #329e95;
     color: white;
     font-weight: bold;
 }
@@ -73,7 +74,8 @@ button {
 }
 
 .top-section {
-    background-color: #1f2937;
+    background-color: #29446b;
+    min-height: 600px;
 }
 
 .locations-section {
@@ -92,9 +94,8 @@ button {
     justify-content: space-between;
     align-items: center;
     min-height: 100px;
-    width: 1000px;
-    margin: 0;
-    padding: 24px;
+    width: 1100px;
+    margin-bottom: auto;
 }
 
 #logo {
@@ -114,6 +115,16 @@ button {
 
 .top-section-content {
     display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 100px;
+    width: 1100px;
+}
+
+.top-text-and-button {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .top-image {
@@ -165,20 +176,20 @@ button {
 
 /* || Sign Up Section and Footer */
 
-.blue-box {
+.green-box {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #3882f6;
-    height: 100px;
-    width: 800px;
+    background-color: #329e95;
+    height: 125px;
+    width: 1100px;
     border-radius: 10px;
     color: white;
 }
 
 .sign-up-text {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     margin: 0;
 }
