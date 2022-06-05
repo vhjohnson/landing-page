@@ -58,9 +58,9 @@ button {
     border: solid 2px white;
 }
 
-/* || General Layout for Each Section */
+/* || General Layout for Each Section (except Header section)*/
 
-.opener,
+.top-section,
 .locations-section,
 .quote-section,
 .sign-up-section {
@@ -71,7 +71,7 @@ button {
     width: auto;
 }
 
-.opener {
+.top-section {
     gap: 100px;
 }
 
@@ -121,7 +121,7 @@ button {
 
 /* || Opening Section */
 
-.opener-text-and-button {
+.top-text-and-button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -129,7 +129,7 @@ button {
     gap: 20px;
 }
 
-.opener-image {
+.top-image {
     height: auto;
     max-width: 500px;
     box-shadow: 0 0 20px rgb(243, 245, 245);
