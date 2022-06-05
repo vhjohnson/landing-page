@@ -98,20 +98,25 @@ button {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.company-logo {
-    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
 }
 
 #logo {
     height: auto;
     max-width: 70px;
     border-radius: 20px;
+}
+
+.company-logo,
+.header-links {
+    justify-self: flex-start;
+}
+
+.company-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .header-links {
@@ -121,7 +126,7 @@ button {
 
 /* || Opening Section */
 
-.top-text-and-button {
+.top-logo-and-text {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
