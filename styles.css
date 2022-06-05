@@ -65,6 +65,7 @@ button {
 .quote-section,
 .sign-up-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 500px;
@@ -72,34 +73,28 @@ button {
 }
 
 .top-section {
-    gap: 100px;
+    background-color: #1f2937;
 }
 
 .locations-section {
-    flex-direction: column;
     gap: 50px;
 }
 
 .quote-section {
     flex-wrap: wrap;
-    flex-direction: column;
     background-color: #e5e7eb;
 }
 
 /* || Header */
 
-.header-section {
-    display: flex;
-    flex-direction: column;
-    background-color: #29446b;
-    color: white;
-    padding: 24px;
-}
-
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    min-height: 100px;
+    width: 1000px;
+    margin: 0;
+    padding: 24px;
 }
 
 #logo {
@@ -108,30 +103,17 @@ button {
     border-radius: 20px;
 }
 
-.company-logo,
-.header-links {
-    justify-self: flex-start;
-}
-
 .company-logo {
     display: flex;
     align-items: center;
+    color: white;
     gap: 10px;
 }
 
-.header-links {
-    display: flex;
-    gap: 16px;
-}
+/* || Top Section */
 
-/* || Opening Section */
-
-.top-logo-and-text {
+.top-section-content {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 450px;
-    gap: 20px;
 }
 
 .top-image {
