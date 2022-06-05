@@ -50,6 +50,8 @@ button {
     font-weight: bold;
 }
 
+/* || General Layout for Each Section */
+
 .opener,
 .locations-section,
 .quote-section,
@@ -76,13 +78,7 @@ button {
     background-color: #e5e7eb;
 }
 
-/* || Header and Opening Section */
-
-#logo {
-    height: auto;
-    max-width: 70px;
-    border-radius: 20px;
-}
+/* || Header */
 
 .header-section {
     display: flex;
@@ -98,16 +94,24 @@ button {
     align-items: flex-start;
 }
 
-.header-links {
-    display: flex;
-    gap: 16px;
-}
-
 .company-logo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
+#logo {
+    height: auto;
+    max-width: 70px;
+    border-radius: 20px;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+/* || Opening Section */
 
 .opener-text-and-button {
     display: flex;
@@ -117,15 +121,15 @@ button {
     gap: 20px;
 }
 
+.top-button {
+    border: none;
+}
+
 .opener-image {
     height: auto;
     max-width: 500px;
     box-shadow: 0 0 20px rgb(243, 245, 245);
     border-radius: 5px;
-}
-
-.top-button {
-    border: none;
 }
 
 /* || Locations Section */
