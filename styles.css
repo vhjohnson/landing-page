@@ -50,6 +50,14 @@ button {
     font-weight: bold;
 }
 
+.top-button {
+    border: none;
+}
+
+.bottom-button {
+    border: solid 2px white;
+}
+
 /* || General Layout for Each Section */
 
 .opener,
@@ -121,10 +129,6 @@ button {
     gap: 20px;
 }
 
-.top-button {
-    border: none;
-}
-
 .opener-image {
     height: auto;
     max-width: 500px;
@@ -190,10 +194,6 @@ button {
     font-size: 24px;
     font-weight: bold;
     margin: 0;
-}
-
-.bottom-button {
-    border: solid 2px white;
 }
 
 .footer {
